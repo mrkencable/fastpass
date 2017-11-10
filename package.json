@@ -4,6 +4,8 @@
   "description": "Pelican Nodejs routing server",
   "main": "index.js",
   "dependencies": {
+    "babel-preset-node6": "^11.0.0",
+    "babel-register": "^6.26.0",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "follow": "^1.0.0",
@@ -13,6 +15,7 @@
     "routes": "^2.1.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
     "cors": "^2.8.4"
   },
   "scripts": {
