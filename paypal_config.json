@@ -1,0 +1,9 @@
+{
+  "port" : 5000,
+  "api" : {
+    "host" : "api.sandbox.paypal.com",
+    "port" : "",            
+    "client_id" : "pelicansecured_api1.gmail.com",
+    "client_secret" : "N7DWMZDJ4T2REZNR"
+  }
+}
