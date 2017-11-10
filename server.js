@@ -109,9 +109,6 @@ var password = "THEpassw0rd";
 var server_port = process.env.OPENSHIFT_NODEJS_PORT; // || 8080;
 var server_ip_address = process.env.OPENSHIFT_NODEJS_IP; // || "127.0.0.1"
 
-
-
-
 function get_AuthRoot(username, password) {
     //var root_url =  "http://"+username+":"+password+"@localhost:8080/cyclos/pelican/web-rpc/";
     var root_url = "https://" + username + ":" + password + "@communities.cyclos.org/FastPass/";
