@@ -2,7 +2,7 @@ require("babel-core").transform("code", {
     plugins: ["transform-async-to-generator"]
   });
 
-  
+
 var async = require('async');
 var request = require("request");
 var http = require('http');
@@ -125,7 +125,7 @@ function URL_PAYMENT(uname) {
 
 
 
-async function Transfer(data) {
+function Transfer(data) {
     return new Promise(function (resolve, reject) { 
 
         console.log("Transaction Data is: '" + JSON.stringify(data) + "'");
