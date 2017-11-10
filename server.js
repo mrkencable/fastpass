@@ -1,3 +1,6 @@
+require("babel-core").transform("code", {
+    plugins: ["transform-async-to-generator"]
+  });
 var async = require('async');
 var request = require("request");
 var http = require('http');
