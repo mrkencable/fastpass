@@ -6,7 +6,6 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "firebase": "^3.0.5",
     "follow": "^1.0.0",
     "nano": "^6.4.2",
     "node": "^8.3.0",
@@ -21,9 +20,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://5760c11e7628e10c34000103@nodejs-pelicansecured.rhcloud.com/~/git/nodejs.git/"
+    "url": "https://github.com/mrkencable/fastpass.git"
   },
-  "author": "",
+  "author": "Kendall Cable",
   "license": "ISC",
   "directories": {
     "test": "test"
