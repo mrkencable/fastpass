@@ -1,8 +1,3 @@
-require("babel-core").transform("code", {
-    plugins: ["transform-async-to-generator"]
-  });
-
-
 var async = require('async');
 var request = require("request");
 var http = require('http');
@@ -107,7 +102,7 @@ Variables
 var username = "admin";
 var password = "THEpassw0rd";
 var server_port = process.env.OPENSHIFT_NODEJS_PORT; // || 8080;
-var server_ip_address = OPENSHIFT_NODEJS_IP; // || "127.0.0.1"
+var server_ip_address = "http://pelican-pelicannode.1d35.starter-us-east-1.openshiftapps.com"; //OPENSHIFT_NODEJS_IP; // || "127.0.0.1"
 
 function get_AuthRoot(username, password) {
     //var root_url =  "http://"+username+":"+password+"@localhost:8080/cyclos/pelican/web-rpc/";
