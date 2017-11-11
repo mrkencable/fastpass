@@ -1,7 +1,3 @@
-require("babel-core").transform("code", {
-    plugins: ["transform-async-to-generator"]
-  });
-
 
 var async = require('async');
 var request = require("request");
@@ -106,8 +102,9 @@ Variables
 
 var username = "admin";
 var password = "THEpassw0rd";
-var server_port = 8080; //process.env.OPENSHIFT_NODEJS_PORT || 8080;
-var server_ip_address = "http://pelican-pelicannode.1d35.starter-us-east-1.openshiftapps.com"; //OPENSHIFT_NODEJS_IP; // || "127.0.0.1"" process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1"
+var server_port = process.env.PORT; //|| 8080;
+var server_ip_address = "0.0.0.0";
+ //"http://pelican-pelicannode.1d35.starter-us-east-1.openshiftapps.com"; //OPENSHIFT_NODEJS_IP; // || "127.0.0.1"" process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1"
 
 
 
